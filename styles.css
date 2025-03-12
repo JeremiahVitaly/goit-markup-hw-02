@@ -1,71 +1,92 @@
-/* navigation */
-.nav-logo{
-    width: 145px;
-    height: 24px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.nav-text{
-    color: #4D5AE5;
+body {
+  font-family: Roboto sans-serif 'Times New Roman';
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
-.contact-info-link{
-    font-size: 16px;
-    font-weight: 400;
+/* Шапка */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
 }
 
-/* Hero image */
-.hero__title{
-    font-size: 56px;
-    font-weight: 700;
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
-.hero-button{
-    color: #4D5AE5;
+.hero-bottom {
+  background-color: #4D5AE5;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
-/* section 1 */
-.features-title{
+.features {
+  /* Effective Solutions for Your Business */
+
+position: absolute;
+color: #ffffff
+width: 496px;
+height: 120px;
+left: 472px;
+top: 260px;
+
+/* Header 1 */
+background-color: #2e2f42;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+
+/* WHITE */
+color: #FFFFFF;
+}
+
+.team {
+  font-weight: 500;
   font-size: 20px;
-  }
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 
-  .features-text{
-    font-size: 16px;
-  }
+}
+.team-role { 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
-  /* Our team */
-  .team-img{
-
-  }
-  .team-name{
-    font-size: 20px;
-  }
-
-  .team-role{
-    font-size: 16px;
-  }
-  
-  /* Our portfilo */
-  .document-img{
-
-  }
-  
-  .document-name{
-
-  }
-  
-  .document-text{
-
-  }
-
-  /* footer */
-  .footer-name{
-
-  }
-
-  .footer-title{
-    color: #4D5AE5;
-  }
-
-  .footer-text{
-    
-  }
+.document {
+  background-color: #F4F4FD;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.document-hero1{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color:#2e2f42 ;
+}
