@@ -1,0 +1,71 @@
+/* navigation */
+.nav-logo{
+    width: 145px;
+    height: 24px;
+}
+
+.nav-text{
+    color: #4D5AE5;
+}
+
+.contact-info-link{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Hero image */
+.hero__title{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.hero-button{
+    color: #4D5AE5;
+}
+
+/* section 1 */
+.features-title{
+  font-size: 20px;
+  }
+
+  .features-text{
+    font-size: 16px;
+  }
+
+  /* Our team */
+  .team-img{
+
+  }
+  .team-name{
+    font-size: 20px;
+  }
+
+  .team-role{
+    font-size: 16px;
+  }
+  
+  /* Our portfilo */
+  .document-img{
+
+  }
+  
+  .document-name{
+
+  }
+  
+  .document-text{
+
+  }
+
+  /* footer */
+  .footer-name{
+
+  }
+
+  .footer-title{
+    color: #4D5AE5;
+  }
+
+  .footer-text{
+    
+  }
